@@ -22,12 +22,13 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\STRONY\Project Reggie\html" />
+      <recent name="F:\STRONY\Project Reggie" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\STRONY\Project Reggie" />
       <recent name="F:\STRONY\Project Reggie\html\home" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\STRONY\Project Reggie" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -76,6 +77,10 @@
       <workItem from="1573820321233" duration="55000" />
       <workItem from="1574238596523" duration="4057000" />
       <workItem from="1574270848385" duration="379000" />
+      <workItem from="1574272127137" duration="595000" />
+      <workItem from="1574330794994" duration="275000" />
+      <workItem from="1574406295445" duration="4221000" />
+      <workItem from="1574421711145" duration="41000" />
     </task>
     <servers />
   </component>
