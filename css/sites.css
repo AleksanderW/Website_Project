@@ -64,7 +64,7 @@ tooltip{
 
 
 
-@media (max-width: 450px) {
+@media (max-width: 450px) and (min-width: 449px){
     html,
     body,
     header,
@@ -74,17 +74,19 @@ tooltip{
     footer .intro-3{
         height: 20%;
     }
+
 }
 @media (min-width: 451px) and (max-width: 740px) {
     html,
     body,
-    header,
+
     .intro-3 {
-        height: 300px;
+        height: 350px;
     }
     footer .intro-3{
         height: 20%;
     }
+
 }
 @media (min-width: 800px) and (max-width: 850px) {
     html,
