@@ -11,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -21,18 +22,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\STRONY\Project Reggie\html" />
+      <recent name="F:\STRONY\Project Reggie" />
+      <recent name="F:\STRONY\Project Reggie\html\home" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\STRONY\Project Reggie\html" />
       <recent name="F:\STRONY\Project Reggie" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\STRONY\Project Reggie" />
-      <recent name="F:\STRONY\Project Reggie\html\home" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.Index.html">
@@ -89,7 +92,9 @@
       <workItem from="1574878692383" duration="17000" />
       <workItem from="1574879388920" duration="15000" />
       <workItem from="1574931462841" duration="1896000" />
-      <workItem from="1574951993227" duration="1160000" />
+      <workItem from="1574951993227" duration="1224000" />
+      <workItem from="1574954575372" duration="32000" />
+      <workItem from="1575446862706" duration="6380000" />
     </task>
     <servers />
   </component>
