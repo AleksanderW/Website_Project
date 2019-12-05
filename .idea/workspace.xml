@@ -28,14 +28,14 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\STRONY\Project Reggie\html" />
+      <recent name="F:\STRONY\Project Reggie" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\STRONY\Project Reggie\html" />
       <recent name="F:\STRONY\Project Reggie" />
       <recent name="F:\STRONY\Project Reggie\html\home" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\STRONY\Project Reggie\html" />
-      <recent name="F:\STRONY\Project Reggie" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.Index.html">
@@ -97,7 +97,8 @@
       <workItem from="1575446862706" duration="6444000" />
       <workItem from="1575453842828" duration="557000" />
       <workItem from="1575473592930" duration="284000" />
-      <workItem from="1575478435088" duration="3529000" />
+      <workItem from="1575478435088" duration="3633000" />
+      <workItem from="1575571495534" duration="8895000" />
     </task>
     <servers />
   </component>

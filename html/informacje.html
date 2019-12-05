@@ -65,7 +65,7 @@
 
     <section>
         <div class="">
-            <img src="../img/back2.jpg"  style="width:100%" class="wow fadeIn"
+            <img src="../img/back2.jpg" style="width:100%" class="wow fadeIn"
                  data-wow-delay="0.40s">
         </div>
     </section>
@@ -79,7 +79,7 @@
     <div class="container-fluid mt-md-0 mt-5 mb-5">
 
         <!-- Grid row -->
-        <div class="row wow fadeIn" data-wow-delay="0.15s" style="margin-top: -100px;">
+        <div class="row" style="margin-top: -100px;">
 
             <!-- Grid column -->
             <div class="col-md-12 px-lg-5">
@@ -88,12 +88,12 @@
                     <div class="card-body">
 
                         <div class="container">
-
+                            <div class="container wow fadeIn" data-wow-delay="0.25s">
                             <!-- Section heading -->
                             <h1 class="text-center h1 pt-4 mb-3 fa-2x ">
-                                <strong>Wstęp</strong>
+                                <strong>Informacje zwrotne i dane kontaktowe</strong>
                             </h1>
-
+                            </div>
                             <!-- Grid row -->
                             <div class="row pt-lg-5 pt-3">
 
@@ -102,42 +102,212 @@
                                     <hr class="mt-3">
                                     <!-- Grid row -->
                                     <div class="row mt-3">
+                                        <div class="container wow fadeIn" data-wow-delay="0.15s">
+                                        <p class="elegant-color-text article mb-3">W tej sekcji podaje się informacje o
+                                            sposobach kontaktowania się z podmiotem publicznym w celu zgłoszenia
+                                            problemu z dostępnością cyfrową. Do nagłówka sekcji należy dodać
+                                            identyfikator „a11y-kontakt”. Fragment kodu html:
+                                        </p>
 
-                                        <p class="elegant-color-text article">Na podstawie art. 12 pkt 7 ustawy z dnia 4
-                                            kwietnia 2019 r. o dostępności cyfrowej stron internetowych i aplikacji
-                                            mobilnych podmiotów publicznych (Dz. U. poz. 848), dalej zwanej „ustawą o
-                                            dostępności cyfrowej”, niniejszy dokument określa warunki techniczne
-                                            publikacji Deklaracji Dostępności oraz strukturę dokumentu elektronicznego
-                                            Deklaracji Dostępności.</p>
+                                        <p class="elegant-color-text article mb-3">
+                                            <b>&lt;h2 id=„a11y-kontakt”&gt;</b>Informacje zwrotne i dane kontaktowe<b>&lt;/h2&gt;</b>
+                                        </p>
 
-                                        <p style="font-size: 1.2rem;text-decoration: underline;"><strong>Ustawa o
-                                            dostępności cyfrowej zobowiązuje w art. 10 podmioty publiczne do
-                                            sporządzania i publikowania Deklaracji Dostępności.</strong></p>
+                                        <p class="elegant-color-text article mb-2">
+                                            Poniżej zamieszczony jest przykładowy tekst:
+                                        </p>
+                                        <p class="elegant-color-text article mb-2" style="font-style: italic;">
+                                            W przypadku problemów z dostępnością strony internetowej prosimy o kontakt.
+                                            Osobą kontaktową jest <b>imię i nazwisko do osoby odpowiedzialnej, adres
+                                            poczty
+                                            elektronicznej</b>. Kontaktować można się także dzwoniąc na <b>numer
+                                            telefonu</b>. Tą samą drogą można składać wnioski o udostępnienie informacji
+                                            niedostępnej oraz składać żądania zapewnienia dostępności.
+                                        </p>
+
+                                        <p class="elegant-color-text article mb-2">
+                                            W odpowiednim miejscu należy wstawić imię i nazwisko osoby kontaktowej
+                                            dodając identyfikator „a11y-osoba”. Podaje się także sposoby kontaktu, na
+                                            przykład adres poczty elektronicznej, numer telefonu, komunikator
+                                            internetowy itp. Do adresu poczty elektronicznej dodaje się identyfikator
+                                            „a11y-email”. Do numeru telefonu dodaje się identyfikator „a11y-telefon”.
+                                        </p>
+                                        <strong class="mb-2 mt-3" style="font-size: 1.75rem;">Przykład</strong>
+
+                                        <p class="elegant-color-text article mb-5">
+                                            <b>&lt;p&gt;</b></b>W przypadku problemów z dostępnością strony internetowej
+                                            prosimy o
+                                            kontakt. Osobą kontaktową jest <b>&lt;span id=”a11y-osoba”&gt;</b>Jan
+                                            Nowak<b>&lt;/span&gt;</b>,
+                                            <b>&lt;span
+                                                id=”a11y-email”&gt;</b>jannowak@domenapoczty.pl<b>&lt;/span&gt;</b>.
+                                            Kontaktować
+                                            można się także dzwoniąc na numer telefonu &lt;span
+                                            id=”a11y-telefon”&gt;</b>321 321
+                                            321<b>&lt;/span&gt;</b>. Tą samą drogą można składać wnioski o udostępnienie
+                                            informacji
+                                            niedostępnej oraz składać skargi na brak zapewnienia dostępności.<b>&lt;/p&gt</b>;
+                                        </p>
+                                        </div>
+                                        <!-- Informacje na temat procedury-->
+                                        <div class="container wow fadeIn" data-wow-delay="0.15s">
+                                        <strong class="mb-2" style="font-size: 2.35rem;">Informacje na temat
+                                            procedury</strong>
+                                        <p class="elegant-color-text article mt-0 mb-3">Podmiot publiczny umieszcza
+                                            informacje na temat procedury opisanej w art. 18 ustawy o dostępności
+                                            cyfrowej. W tym celu dodaje fragment oznaczony identyfikatorem
+                                            „a11y-procedura”. Poniższy tekst ma charakter przykładowy i można go
+                                            zredagować samodzielnie, mając na względzie zgodność z przepisami i
+                                            czytelność dla odbiorców:
+                                        </p>
+
+                                        <p class="elegant-color-text article mb-3" style="font-style: italic;">
+                                            <b>&lt;p id=”a11y-procedura”&gt;</b> Każdy ma prawo do wystąpienia z
+                                            żądaniem zapewnienia dostępności cyfrowej strony internetowej, aplikacji
+                                            mobilnej lub jakiegoś ich elementu. Można także zażądać udostępnienia
+                                            informacji za pomocą alternatywnego sposobu dostępu, na przykład przez
+                                            odczytanie niedostępnego cyfrowo dokumentu, opisanie zawartości filmu bez
+                                            audiodeskrypcji itp. Żądanie powinno zawierać dane osoby zgłaszającej
+                                            żądanie, wskazanie, o którą stronę internetową lub aplikację mobilną chodzi
+                                            oraz sposób kontaktu. Jeżeli osoba żądająca zgłasza potrzebę otrzymania
+                                            informacji za pomocą alternatywnego sposobu dostępu, powinna także określić
+                                            dogodny dla niej sposób przedstawienia tej informacji. Podmiot publiczny
+                                            powinien zrealizować żądanie niezwłocznie, nie później niż w ciągu 7 dni od
+                                            dnia wystąpienia z żądaniem. Jeżeli dotrzymanie tego terminu nie jest
+                                            możliwe, podmiot publiczny niezwłocznie informuje o tym wnoszącego żądanie,
+                                            kiedy realizacja żądania będzie możliwa, przy czym termin ten nie może być
+                                            dłuższy niż 2 miesiące od dnia wystąpienia z żądaniem. Jeżeli zapewnienie
+                                            dostępności cyfrowej nie jest możliwe, podmiot publiczny może zaproponować
+                                            alternatywny sposób dostępu do informacji. W przypadku, gdy podmiot
+                                            publiczny odmówi realizacji żądania zapewnienia dostępności lub
+                                            alternatywnego sposobu dostępu do informacji, wnoszący żądanie możne złożyć
+                                            skargę w sprawie zapewniana dostępności cyfrowej strony internetowej,
+                                            aplikacji mobilnej lub elementu strony internetowej, lub aplikacji mobilnej.
+                                            Po wyczerpaniu wskazanej wyżej procedury można także złożyć wniosek do
+                                            Rzecznika Praw Obywatelskich.<b>&lt;/p&gt;</b>
+                                        </p>
+
+                                        <p class="elegant-color-text article mb-5">
+                                            Elementem obowiązkowym jest także dodanie linku do strony internetowej
+                                            Rzecznika Praw Obywatelskich.
+
+                                        </p>
+                                        </div>
+                                        <!--Informacje na temat procedury-->
+
+                                        <!-- Dostępność architektoniczna -->
+                                        <div class="container wow fadeIn" data-wow-delay="0.15s">
+                                        <strong class="mb-2" style="font-size: 2.35rem;">Dostępność
+                                            architektoniczna</strong>
+                                        <p class="elegant-color-text article mt-0">W sekcji „Dostępność
+                                            architektoniczna” podmiot publiczny deklaruje dostępność architektoniczną
+                                            swojej siedziby. Podaje przy tym adres lub adresy, jeżeli lokalizacji jest
+                                            kilka, do każdej tworząc oddzielne opisy. Do nagłówka sekcji dodawany jest
+                                            identyfikator „a11y-architektura”:
+                                        </p>
+                                        <p class="elegant-color-text article mb-2">
+                                            <b>&lt;h2 id=”a11y-architektura”&gt;</b>Dostępność architektoniczna<b>&lt;/h2&gt;</b>
+                                            <br>Opis dostępności architektonicznej powinien zawierać:
+                                        </p>
+                                        <ol class="elegant-color-text article mb-2">
+                                            <li class="tytul mb-2 mt-2">Opis dostępności wejścia do budynku i
+                                                przechodzenia przez obszary kontroli.
+                                            </li>
+                                            <li class="tytul mb-2 mt-2">Opis dostępności korytarzy, schodów i wind.
+                                            </li>
+                                            <li class="tytul mb-2 mt-2">Opis dostosowań, na przykład pochylni, platform,
+                                                informacji głosowych,
+                                                pętlach indukcyjnych.
+                                            </li>
+                                            <li class="tytul mb-2 mt-2">Informacje o miejscu i sposobie korzystania z
+                                                miejsc parkingowych
+                                                wyznaczonych dla osób niepełnosprawnych.
+                                            </li>
+                                            <li class="tytul mb-2 mt-2">Informacja o prawie wstępu z psem asystującym i
+                                                ewentualnych
+                                                uzasadnionych ograniczeniach.
+                                            </li>
+                                            <li class="tytul mb-2 mt-2">Informacje o możliwości skorzystania z tłumacza
+                                                języka migowego na
+                                                miejscu lub online. W przypadku braku takiej możliwości, taką informację
+                                                także należy zawrzeć.
+                                            </li>
+                                        </ol>
+                                        <p class="elegant-color-text article mb-2">
+                                            W tej sekcji można zawrzeć także inne informacje skierowane do osób
+                                            niepełnosprawnych, na przykład opis sposobu dojazdu, inne sposoby
+                                            porozumiewania się itp. Dobrymi praktykami są także umieszczenie informacji
+                                            w tekście łatwym do czytania i zrozumienia, w języku migowym oraz dodanie
+                                            fotografii budynku.
+                                        </p>
+
+                                        <p class="elegant-color-text article mb-2" style="font-style: italic">
+                                            Podmiot może dalej umieścić dodatkowe, nieobowiązkowe informacje, na
+                                            przykład:
+                                        </p>
+
+                                        <li class="elegant-color-text article list-unstyled mb-1">
+                                            <ul>
+                                                <li class="tytul mb-2 mt-2">deklaracja o chęci osiągnięcia lub
+                                                    osiągnięciu poziomu wyższego od wymagań prawnych, na przykład „Na
+                                                    stronie internetowej kontrast spełnia wymagania WCAG na poziomie
+                                                    AAA”, „Zapewniamy informacje przetłumaczone na polski język migowy”
+                                                    itp.,
+                                                </li>
+                                                <li class="tytul mb-2 mt-2">deklarację o poprawieniu obecnej sytuacji,
+                                                    na przykład „Do końca 2021 roku strona internetowa zostanie w pełni
+                                                    dostosowana do wymagań prawnych”, „Aktualnie trwają prace nad
+                                                    konwersją wszystkich plików PDF do wersji dostępnych cyfrowo” itp.,
+                                                </li>
+                                                <li class="tytul mb-2 mt-2">
+                                                    łącze do sprawozdania z oceny dostępności strony internetowej lub
+                                                    aplikacji mobilnej wykonanej przez podmiot publiczny lub podmiot
+                                                    zewnętrzny.
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <p class="elegant-color-text article mb-5">
+                                            Poza wspomnianymi wymaganiami Deklaracja Dostępności może zawierać również
+                                            inne elementy i informacje, które mogą być użyteczne pod kątem zapewnienia i
+                                            informowania o dostępności. Takie elementy mogą być dodane do Deklaracji
+                                            wedle uznania.
+                                        </p>
+                                        </div>
+                                        <!-- Dostępność architektoniczna -->
+
+                                        <!-- Aplikacje mobilne -->
+                                        <div class="container wow fadeIn" data-wow-delay="0.15s">
+                                        <strong class="mb-2" style="font-size: 2.35rem;">Aplikacje mobilne</strong>
+                                        <p class="elegant-color-text article mt-0 mb-2">Jeżeli podmiot publiczny posiada
+                                            i
+                                            udostępnia aplikacje mobilne, dodaje jeszcze jedną sekcję: „Aplikacje
+                                            mobilne” oznaczoną identyfikatorem „a11y-aplikacje”. W treści deklaracji
+                                            wymienia te aplikacje wraz z linkami do pobrania. Może to wyglądać
+                                            następująco:
+                                            <br>Ministerstwo Cyfryzacji udostępnia następujące aplikacje mobilne:
+                                        </p>
 
 
-                                        <p class="elegant-color-text article mt-2">Celem publikacji Deklaracji
-                                            Dostępności
-                                            jest
-                                            umożliwienie zapoznania się z informacjami dotyczącymi dostępności podmiotu
-                                            publicznego. Informacje te przydadzą się przede wszystkim osobom z
-                                            niepełnosprawnościami, które będą dzięki temu wiedzieć, jakie pomoce czy
-                                            rozwiązania wspierające są dostępne w odniesieniu do danego podmiotu.</p>
+                                        <li class="elegant-color-text article list-unstyled mb-1">
+                                            <ul>
+                                                <li class="tytul mb-2 mt-2">mObywatel w wersji dla systemu Android
+                                                </li>
+                                                <li class="tytul mb-2 mt-2">mObywatel w wersji dla systemu iOS.</li>
+                                            </ul>
+                                        </li>
 
-                                        <p class="elegant-color-text article">Warunki techniczne odnoszą się zarówno do
-                                            Deklaracji Dostępności strony internetowej, jak i Deklaracji Dostępności
-                                            aplikacji mobilnej. Używane pojęcie „strona internetowa” należy w przypadku
-                                            aplikacji mobilnej zamieniać na „aplikacja mobilna”. Różnice pomiędzy
-                                            Deklaracjami Dostępności strony internetowej i aplikacji mobilnej są opisane
-                                            w treści warunków technicznych.</p>
-
-                                        <p class="elegant-color-text article">Deklaracja dostępności jest przygotowana w
-                                            formacie HTML, w jego dowolnej wersji. </p>
-                                        <p class="elegant-color-text article">Deklaracja dostępności spełnia wymagania
-                                            zawarte w art. 5 ustawy o dostępności cyfrowej, nawet jeżeli sama strona
-                                            internetowa lub aplikacja mobilna ich nie spełnia. Oznacza to, że Deklaracja
-                                            Dostępności musi być w pełni dostępna cyfrowo. </p>
-
-
+                                        <p class="elegant-color-text article mb-2">Nazwy aplikacji są linkami
+                                            prowadzącymi do miejsca, z którego można pobrać aplikację, na przykład do
+                                            sklepu z aplikacjami.
+                                        </p>
+                                        <p class="elegant-color-text article mb-2">Poza wspomnianymi wymaganiami
+                                            Deklaracja Dostępności może zawierać również inne elementy i informacje,
+                                            które mogą być użyteczne pod kątem zapewnienia i informowania o dostępności.
+                                            Takie elementy mogą być dodane do Deklaracji wedle uznania.
+                                        </p>
+                                        </div>
+                                        <!-- Aplikacje mobilne -->
                                     </div>
                                     <!-- Grid row -->
 
@@ -282,10 +452,10 @@
     <!-- Footer Links -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3 wow fadeIn" data-wow-delay="0.15s">
+    <div class="footer-copyright text-center py-3">
         <div class="container-fluid">
             © 2019 Copyright: <a href="https://github.com/aleksanderw" target="_blank">
-            Test.com </a>
+            Aleksander Wojtowicz </a>
         </div>
     </div>
     <!-- Copyright -->
