@@ -23,6 +23,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -101,6 +102,8 @@
       <workItem from="1575571495534" duration="8993000" />
       <workItem from="1575580752573" duration="328000" />
       <workItem from="1575903938125" duration="147000" />
+      <workItem from="1575904095506" duration="1087000" />
+      <workItem from="1575907077270" duration="1875000" />
     </task>
     <servers />
   </component>

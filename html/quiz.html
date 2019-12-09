@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Wstęp</title>
+    <title>Blog - MDBootstrap</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Bootstrap core CSS -->
@@ -15,7 +15,10 @@
     <!-- Your custom scripts -->
     <link href="../css/sites.css" rel="stylesheet">
     <style>
-
+		label{
+			margin-left: 30px;
+			font-size: 1.20rem;
+		}
     </style>
 </head>
 
@@ -39,7 +42,7 @@
                         <a class="nav-link dropdown-toggle title" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false"> Deklaracja Dostępności </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Wstęp</a>
+                            <a class="dropdown-item" href="wstep.html">Wstęp</a>
                             <a class="dropdown-item" href="warunki.html">Warunki Techniczne</a>
                             <a class="dropdown-item" href="zawartosc.html">Zawartość Deklaracji
                                 Dostępności</a>
@@ -57,7 +60,7 @@
                     </li>
                     <li class="nav-item ml-4">
                         <a class="nav-link"
-                           href="quiz.html">Quiz</a>
+                           href="#">Quiz</a>
                     </li>
                 </ul>
 
@@ -68,7 +71,7 @@
 
     <section>
         <div class="">
-            <img src="https://mdbootstrap.com/img/Photos/Others/city9.jpg" style="width:100%" class="wow fadeIn"
+            <img src="../img/back3.jpg" style="width:100%" class="wow fadeIn"
                  data-wow-delay="0.40s" alt="zdj">
         </div>
     </section>
@@ -82,7 +85,7 @@
     <div class="container-fluid mt-md-0 mt-5 mb-5">
 
         <!-- Grid row -->
-        <div class="row wow fadeIn" data-wow-delay="0.15s" style="margin-top: -100px;">
+        <div class="row" style="margin-top: -100px;">
 
             <!-- Grid column -->
             <div class="col-md-12 px-lg-5">
@@ -90,61 +93,86 @@
                 <div class="card pb-5 mx-md-3">
                     <div class="card-body">
 
-                        <div class="container">
+                        <div class="container wow fadeIn" data-wow-delay="0.25s">
 
                             <!-- Section heading -->
-                            <h1 class="text-center h1 pt-4 mb-3 fa-2x ">
-                                <strong>Wstęp</strong>
+                            <h1 class="text-center h1 pt-4 mb-0">
+                                <strong>Quiz</strong>
                             </h1>
+
+                           
 
                             <!-- Grid row -->
                             <div class="row pt-lg-5 pt-3">
 
                                 <!-- Grid column -->
                                 <div class="col-md-12 col-xl-12">
-                                    <hr class="mt-3">
-                                    <!-- Grid row --><div class="wow fadeIn" data-wow-delay="0.15s">
-                                    <div class="row mt-3">
 
-                                        <p class="elegant-color-text article">Na podstawie art. 12 pkt 7 ustawy z dnia 4
-                                            kwietnia 2019 r. o dostępności cyfrowej stron internetowych i aplikacji
-                                            mobilnych podmiotów publicznych (Dz. U. poz. 848), dalej zwanej „ustawą o
-                                            dostępności cyfrowej”, niniejszy dokument określa warunki techniczne
-                                            publikacji Deklaracji Dostępności oraz strukturę dokumentu elektronicznego
-                                            Deklaracji Dostępności.</p>
-
-                                        <p style="font-size: 1.2rem;text-decoration: underline;"><strong>Ustawa o
-                                            dostępności cyfrowej zobowiązuje w art. 10 podmioty publiczne do
-                                            sporządzania i publikowania Deklaracji Dostępności.</strong></p>
-
-
-                                        <p class="elegant-color-text article mt-2">Celem publikacji Deklaracji
-                                            Dostępności
-                                            jest
-                                            umożliwienie zapoznania się z informacjami dotyczącymi dostępności podmiotu
-                                            publicznego. Informacje te przydadzą się przede wszystkim osobom z
-                                            niepełnosprawnościami, które będą dzięki temu wiedzieć, jakie pomoce czy
-                                            rozwiązania wspierające są dostępne w odniesieniu do danego podmiotu.</p>
-                                    </div><div class="wow fadeIn" data-wow-delay="0.15s">
-                                        <p class="elegant-color-text article">Warunki techniczne odnoszą się zarówno do
-                                            Deklaracji Dostępności strony internetowej, jak i Deklaracji Dostępności
-                                            aplikacji mobilnej. Używane pojęcie „strona internetowa” należy w przypadku
-                                            aplikacji mobilnej zamieniać na „aplikacja mobilna”. Różnice pomiędzy
-                                            Deklaracjami Dostępności strony internetowej i aplikacji mobilnej są opisane
-                                            w treści warunków technicznych.</p>
-
-                                        <p class="elegant-color-text article">Deklaracja dostępności jest przygotowana w
-                                            formacie HTML, w jego dowolnej wersji. </p>
-                                        <p class="elegant-color-text article">Deklaracja dostępności spełnia wymagania
-                                            zawarte w art. 5 ustawy o dostępności cyfrowej, nawet jeżeli sama strona
-                                            internetowa lub aplikacja mobilna ich nie spełnia. Oznacza to, że Deklaracja
-                                            Dostępności musi być w pełni dostępna cyfrowo. </p></div>
-
-
-                                    </div>
+							<hr class="mt-5">
                                     <!-- Grid row -->
+                                 <div class="row mt-3 elegant-color-text">
+                                     <div class="container wow fadeIn" data-wow-delay="0.15s">
+									<form name="quiz" onsubmit="return onSubmit()">
+										<h2 class="text-danger">1.Status zgodności strony internetowej jest zgodny tylko wtedy, gdy: </h2>
+												<label class="form-check-label"><input type="radio" name="p1" value="a"> Strona internetowa jest zgodna z ustawą z dnia 4 kwietnia 2019 r. o dostępności cyfrowej stron internetowych i aplikacji mobilnych podmiotów publicznych.</label><br/>
+												<label class="form-check-label"><input type="radio" name="p1" value="b"> Strona internetowa jest zgodna z ustawą z dnia 1 stycznia 2019 r. o dostępności cyfrowej stron internetowych i aplikacji mobilnych podmiotów publicznych.</label><br/>
+												<label class="form-check-label"><input type="radio" name="p1" value="c"> Strona internetowa jest zgodna z ustawą z dnia 4 kwietnia 2010 r. o dostępności cyfrowej stron internetowych i aplikacji mobilnych podmiotów publicznych.</label><br/>
+												<label class="form-check-label"><input type="radio" name="p1" value="d"> Strona internetowa jest zgodna z ustawą z dnia 4 kwietnia 2015 r. o dostępności cyfrowej stron internetowych i aplikacji mobilnych podmiotów publicznych.</label><br/>
+										<h2 class="text-danger">2. Po tytule „Deklaracja dostępności” umieszcza się następujący tekst oznaczony identyfikatorem na stronie internetowej: </h2>
+												<label class="form-check-label"><input type="radio" name="p2" value="a"> „a11y-tytul”</label><br/>
+												<label class="form-check-label"><input type="radio" name="p2" value="b"> „a11y-wstep”</label><br/>
+												<label class="form-check-label"><input type="radio" name="p2" value="c"> „b40s-tytul”</label><br/>
+												<label class="form-check-label"><input type="radio" name="p2" value="d"> „a21y-wstep”</label><br/>
+										<h2 class="text-danger">3. W jaki sposób deklaruje się dostępność arcitektoniczą swojej siedziby?</h2>
+												<label class="form-check-label"><input type="radio" name="p3" value="a"> „a11y-architektura”</label><br/>
+												<label class="form-check-label"><input type="radio" name="p3" value="b"> „a11y-kontakt”</label><br/>
+												<label class="form-check-label"><input type="radio" name="p3" value="c"> „c578d-publikacja”</label><br/>
+												<label class="form-check-label"><input type="radio" name="p3" value="d"> „a11y-arhitektura”</label><br/>
+										<h2 class="text-danger">4.Co powinien zawierać opis dostępności architektonicznej? </h2>
+												<label class="form-check-label"><input type="radio" name="p4" value="a"> wszystkie odpowiedzi są poprawne</label><br/>
+												<label class="form-check-label"><input type="radio" name="p4" value="b"> Opis dostępności wejścia do budynku i przechodzenia przez obszary kontroli.</label><br/>
+												<label class="form-check-label"><input type="radio" name="p4" value="c"> Informacje o miejscu i sposobie korzystania z miejsc parkingowych wyznaczonych dla osób niepełnosprawnych.</label><br/>
+												<label class="form-check-label"><input type="radio" name="p4" value="d"> Informacje o możliwości skorzystania z tłumacza języka migowego na miejscu lub online. W przypadku braku takiej możliwości, taką informację także należy zawrzeć.</label><br/>
+										<h2 class="text-danger">5.Jeżeli podmiot publiczny posiada i udostępnia aplikacje mobilne, jaką sekcję należy dodać? </h2>
+												<label class="form-check-label"><input type="radio" name="p5" value="a"> „a11y-telefon”</label><br/>
+												<label class="form-check-label"><input type="radio" name="p5" value="b"> „b41y-aplikacje”</label><br/>
+												<label class="form-check-label"><input type="radio" name="p5" value="c"> „a11y-aplikacje”</label><br/>
+												<label class="form-check-label"><input type="radio" name="p5" value="d"> „a11y-kontakt”</label><br/>
+										<h2 class="text-danger">6.Tytuł w Deklaracji Dostępności powinien być zapisany  za pomocą: </h2>
+												<label class="form-check-label"><input type="radio" name="p6" value="a"> (h6) z identyfikatorem „a11y-deklaracja”</label><br/>
+												<label class="form-check-label"><input type="radio" name="p6" value="b"> (h2) z identyfikatorem „a11y-deklaracja”</label><br/>
+												<label class="form-check-label"><input type="radio" name="p6" value="c"> (h1) z identyfikatorem „a11y-deklaracja”</label><br/>
+												<label class="form-check-label"><input type="radio" name="p6" value="d"> wszystkie odpowiedzi są poprawne.</label><br/>
+										<h2 class="text-danger">7.Indefikator „a11y-ocena” odpowiada za:</h2>
+												<label class="form-check-label"><input type="radio" name="p7" value="a"> sekcja z informacjami o aplikacjach</label><br/>
+												<label class="form-check-label"><input type="radio" name="p7" value="b"> link do dokumentu z analizą o nadmiernym obciążeniu. Identyfikator jest opcjonalny</label><br/>
+												<label class="form-check-label"><input type="radio" name="p7" value="c"> adres strony internetowej lub aplikacji mobilnej do pobrania</label><br/>
+												<label class="form-check-label"><input type="radio" name="p7" value="d"> numer telefonu do osoby kontaktowej</label><br/>
+										<h2 class="text-danger">8.Indefikator „a11y-data-publikacja” odpowiada za:  </h2>
+												<label class="form-check-label"><input type="radio" name="p8" value="a"> numer telefonu do osoby kontaktowej</label><br/>
+												<label class="form-check-label"><input type="radio" name="p8" value="b"> opis procedury wnioskowo-skargowej</label><br/>
+												<label class="form-check-label"><input type="radio" name="p8" value="c"> data opublikowania strony internetowej lub wydania aplikacji </label><br/>
+												<label class="form-check-label"><input type="radio" name="p8" value="d"> adres strony internetowej lub aplikacji mobilnej do pobrania </label><br/>
+										<h2 class="text-danger">9.Jakim indetyfikatorem oznacza się datę publikacji?</h2>
+												<label class="form-check-label"><input type="radio" name="p9" value="a"> „a11y-publikacja”</label><br/>
+												<label class="form-check-label"><input type="radio" name="p9" value="b"> „a70y-data-publikacja”</label><br/>
+												<label class="form-check-label"><input type="radio" name="p9" value="c"> „a11y-data-publikacja”</label><br/>
+												<label class="form-check-label"><input type="radio" name="p9" value="d"> „b39y-data-aktualizacji”</label><br/>
+										<h2 class="text-danger">10.Sposoby kontaktowania się z podmiotami publicznymi w celu zgłoszenia problemu z dostępnościa cyfrową: </h2>
+												<label class="form-check-label"><input type="radio" name="p10" value="a"> „a11y-telefon”</label><br/>
+												<label class="form-check-label"><input type="radio" name="p10" value="b"> „a11y-osoba”</label><br/>
+												<label class="form-check-label"><input type="radio" name="p10" value="c"> „a11y-email”</label><br/>
+												<label class="form-check-label"><input type="radio" name="p10" value="d"> wszystkie odpowiedzi są poprawne</label><br/>	<br/>
+										
+											<button type="submit" style="margin-left:40%;" class="btn btn-danger btn-rounded">Sprawdz</button>
+									</form>
+									</div>	
+                                 </div>
+									
+                              <hr class="mt-5">
 
-                                    <hr>
+
+									
                                 </div>
                                 <!-- Grid column -->
 
@@ -298,19 +326,19 @@
 
 <!-- SCRIPTS -->
 <!-- JQuery -->
-<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/jquery-3.4.1.min.js"></script>
 <!-- Bootstrap tooltips -->
-<script type="text/javascript" src="../js/popper.min.js"></script>
+<script src="../js/popper.min.js"></script>
 <!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
-<script type="text/javascript" src="../js/mdb.min.js"></script>
+<script src="../js/mdb.min.js"></script>
+<script src="../js/quiz.js"></script>
 
 <!-- Custom scripts -->
 <script>
     // Animation
     new WOW().init();
-
     $(function () {
         $('.material-tooltip-main').tooltip({
             template: '<div class="tooltip md-tooltip-main"><div class="tooltip-arrow md-arrow"></div><div class="tooltip-inner md-inner-main"></div></div>'
