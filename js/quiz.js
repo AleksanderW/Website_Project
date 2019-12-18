@@ -13,6 +13,7 @@ function onSubmit(){
 	var p8=document.forms['quiz']['p8'].value;
 	var p9=document.forms['quiz']['p9'].value;
 	var p10=document.forms['quiz']['p10'].value;
+	var text='';
 	
 	for(var i=1;i<=iloscpytan;i++){
 		if(eval('p'+i)!=''){
@@ -20,15 +21,21 @@ function onSubmit(){
 			wynik++;
 			
 		}else{
-			alert("Nie odpowiedziales na wszystkie pytania!");
-		
-			break;
 			
+			text+=i;
+			if(i==10)
+				break;
 			
+			text=text+" ";
+			
+
 		}
 	}
+	//text.replace('undefined','');
+	//text.substr(0,5);
+	
 	if(p1=='' || p2=='' || p3=='' || p4 =='' || p5 =='' || p6 =='' || p7=='' || p8=='' || p9=='' || p10=='' ){
-		
+		alert(" Nie odpowiedziales na pytania: "+text+".Popraw sie!")
 	}else{
 		
 	if(wynik<=2){
